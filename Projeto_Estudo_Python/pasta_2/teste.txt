@@ -1,0 +1,68 @@
+Yofo u eaacreh gkiinveg n cao nSsitrsitns g[o]f hkiins gas.c tEuaacl h naelmee,m ean t siofn gklei
+ ngsps acies , tahen d naa mRe omoaf n onneu mekirangl.. RTehet unran mae Stot rbien
+  g[i]n acoscnetandiininngg ltehxei cnoagmreasp hrieca rorradnegre da cicnotrod itnhge itro ptrhoepierr
+  aocrtduearl: ntahmaet, iasn,d tkhien gksi nwgist hh atvhee same name have to be in the correct numerical
+  order.
+
+Definition
+Class: KingSort
+Method: getSortedList
+Parameters: String[]
+Returns: String[]
+Method signature: public String[] getSortedList(String[] kings)
+Notes
+
+-X . The Roman numerals for 1 through 10 are I, II, III, IV, V, VI, VII, VIII, IX, and
+- The Roman numerals for 20, 30, 40, and 50 are XX, XXX, XL, and L.
+-c o n c a tTehnae tRinogm ant hen umneumraelr afl ofr oar niy tos thteenr s tawno-d ditghei t nnumuembraelr
+fleors s
+itths aonn e5s0. cFaonr beex acmopnlset,r u4c7t eids by 40 + 7 = "XL" + "VII" = "XLVII".
+-o f k i nSgst.a ndard string comparison routines give the correct ordering for the actual names
+-s m a l l eFr orthmaaln lBy , ifg ieveint hetrw o (Ad ififs ear enprt efsitrx inofg s B)A aonr d
+(Bt hewer e saisy atht alt eAa sit s olnee xiicndoegrx apwhheicrae lAl y and Bt hde icffhaerr,a catendr
+fino r B)t.h e
+
+
+# criando classe
+
+classe Kings:
+
+    lista_Kings = ['Ricardo I', 'Pedro III', 'Paulo V', 'Jose XI', 'Paulo VI']
+
+    metodo getSorted():
+        passo 1
+         - fazer a contagem da string
+            - fazer o fatiamento da string com o slice[]
+            - Aqui vou dividir esta string em duas e o ponto divisor será o espaço em branco
+            - agora após a divisão no espaço em branco devo fazer a conversão do algarismo romano em inteiro
+
+            - se 'I' in string:
+                'I' = 1
+
+              elif 'II' in string:
+                'II' = 2
+
+              elif 'III' in string:
+                'III' = 3
+
+         - se dentro da string tiver um espaço em branco e um numeral romano então o numeral deve ser
+            convertido para um número inteiro correspondente
+         - tendo feito a conversão será necessário ordenar a lista do númeral menor para o maior
+
+        2 -
+        3 -
+        return string ja formatada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
