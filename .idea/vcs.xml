@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/DataScienceAcademy/PythonFundamentos" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/wttd/eventex" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DataScienceAcademy/PythonFundamentos" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/wttd/eventex" vcs="svn" />
   </component>
 </project>
